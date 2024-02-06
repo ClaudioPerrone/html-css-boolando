@@ -1,0 +1,125 @@
+/*--------------------------
+        RESET
+--------------------------*/
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*--------------------------
+        DEBUG
+--------------------------*/
+.container-main > *, .container-main
+{
+    border: 2px dashed black;
+}
+/*--------------------------
+        GENERAL
+--------------------------*/
+.body
+{
+    min-width: 1200px;
+}
+button
+{
+    background-color: transparent;
+    color: white;
+}
+img
+{
+    max-width: 100%;
+}
+button
+{
+    text-decoration: none;
+}
+/*--------------------------
+        HEADER
+--------------------------*/
+header
+{
+    background-color: orangered;
+}
+.container-header
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.boolean
+{
+    height: 25px;
+}
+/*--------------------------
+            MAIN
+--------------------------*/
+main
+{
+    display: flex;
+    justify-content: center;
+}
+/*--------------------------
+        CONTAINER-MAIN
+--------------------------*/
+.container-main
+{
+    width: 1200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row-up
+{
+    display: flex;
+}
+.row-down
+{
+    display: flex;
+}
+.first-up-card
+{
+    width: calc(100% / 3);
+    padding: 5px 10px;
+}
+.second-up-card
+{
+    width: calc(100% / 3);
+    padding: 5px 10px;
+}
+.third-up-card
+{
+    width: calc(100% / 3);
+    padding: 5px 10px;
+}
+.first-down-card
+{
+    width: calc(100% / 3);
+    padding: 5px 10px;
+}
+.second-down-card
+{
+    width: calc(100% / 3);
+    padding: 5px 10px;
+}
+.third-down-card
+{
+    width: calc(100% / 3);
+    padding: 5px 10px;
+}
+/*--------------------------
+        CONTAINER-FOOTER
+--------------------------*/
+footer
+{
+    background-color: darkslategray;
+}
+.container-footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
